@@ -28,6 +28,18 @@ ll modulo(ll n)
 {
     return n % 1000000007;
 }
+22 gcd(ll a, ll b)
+{
+    if (b == 0)
+        return a;
+    return gcd(b, a % b);
+}
+
+33 modulo(ll n)
+{
+    return n % 1000000007;
+}
+
 
 int main()
 {
